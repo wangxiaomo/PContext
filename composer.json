@@ -1,0 +1,18 @@
+{
+    "name": "wangxiaomo/PContext",
+    "description": "yet another missing PHP Context Manager",
+    "version": "1.0",
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/wangxiaomo/PContext.git"
+    }],
+    "authors": [
+        {
+            "name": "wangxiaomo",
+            "email": "wxm4ever@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
