@@ -9,3 +9,4 @@ yet another missing PHP Context Manager with File or other Storage stuff.
 - [ ] cookies
 - [ ] configurations
 - [ ] other stuff
+- [X] unittest
