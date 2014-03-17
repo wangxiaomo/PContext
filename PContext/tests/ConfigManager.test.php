@@ -10,6 +10,10 @@ class ConfigManagerTest extends UnitTestFrameWork {
         $this->assertEquals(
             ConfigManager::get('m1', 'default'), 'default');
         $this->assertNull(ConfigManager::get('m1'));
+        $this->assertNull(ConfigManager::get('M1'));
+        ConfigManager::set('m1', 3);
+        $this->assertEquals(ConfigManager::get('m1'), 3);
+        $this->assertEquals(ConfigManager::get('M1'), 3);
 
         $k1 = 'u will not use this key!!!';
         $k2 = 'u will not use this key, either!!!';
