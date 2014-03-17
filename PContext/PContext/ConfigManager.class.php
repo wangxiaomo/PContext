@@ -22,16 +22,3 @@ class ConfigManager {
             ConfigManager::$_config, array_change_key_case($configurations, CASE_UPPER));
     }
 }
-
-/*
-echo ConfigManager::get('m1', 'default');
-ConfigManager::set('m1', 1);
-echo ConfigManager::get('m1', 'default');
-
-ConfigManager::merge(array(
-    'm1'    =>  3,
-    'm2'    =>  4
-));
-echo ConfigManager::get('m1');
-echo ConfigManager::get('m2');
-*/

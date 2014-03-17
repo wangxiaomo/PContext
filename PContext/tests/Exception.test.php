@@ -1,8 +1,13 @@
 <?php
+namespace PContext;
 
-class PContextExceptionTest extends PHPUnit_Framework_TestCase {
+include('UnitTestFrameWork.php');
+include('PContext/Exception.class.php');
 
-    // @expectedException PContextException
+class PContextExceptionTest extends UnitTestFrameWork {
+    /**
+     * @expectedException PContext\PContextException
+     */
     public function testPContextException(){
         throw new PContextException();
     }

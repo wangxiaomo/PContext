@@ -1,6 +1,10 @@
 <?php
+namespace PContext;
 
-class ConfigManagerTest extends PHPUnit_Framework_TestCase {
+include('UnitTestFrameWork.php');
+include('PContext/ConfigManager.class.php');
+
+class ConfigManagerTest extends UnitTestFrameWork {
 
     public function testBasicMethods(){
         $this->assertEquals(
